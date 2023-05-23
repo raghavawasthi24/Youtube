@@ -14,3 +14,27 @@
     width: 20rem;
     height: 25rem;
 }
+.profile{
+    width: 20rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+.profilePhoto{
+    width:3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: contain;
+}
+.profilePhoto img{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+.videoData{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0.5rem;
+}

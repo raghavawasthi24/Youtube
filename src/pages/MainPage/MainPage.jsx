@@ -21,7 +21,7 @@ const MainPage = () => {
     <div className='mainpage'>
       {
         postData.map((val)=>{
-          return(<Card thumbnail={val.submission.thumbnail}/>)
+          return(<Card thumbnail={val.submission.thumbnail} pic={val.creator.pic} title={val.submission.title} name={val.creator.name} view={val.reaction.count} video={val.submission.mediaUrl}/>)
         })
       }
        
