@@ -1,0 +1,16 @@
+.card{
+    width:20rem;
+    height:30rem;
+    background-color: aqua;
+    margin: 1rem;
+}
+.cardThumbnail{
+    width:20rem;
+    height:25rem;
+    background-color: brown;
+    /* overflow: hidden; */
+}
+.cardThumbnail img{
+    width: 20rem;
+    height: 25rem;
+}
