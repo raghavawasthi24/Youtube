@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className='userData'>
        <AccessibilityIcon/>
        <NotificationsActiveIcon/>
-       <img src='https://content-uploads-staging.s3.ap-south-1.amazonaws.com/3e7f4ad1c192_1656761968708.png' alt='profile'/>
+       <img src='https://cdn.gro.care/47395a819002_1680251084562.webp' alt='profile'/>
       </div>
       
     </div>

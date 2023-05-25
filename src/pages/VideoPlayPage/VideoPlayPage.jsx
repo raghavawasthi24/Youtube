@@ -12,12 +12,13 @@ const VideoPlayPage = () => {
         <source src={videoContent.video} type="video/mp4" />
       </video>
     <div className="videoTut">
-      <div className="videoTitle">{videoContent.title}</div>
+      <div className="videotitle">{videoContent.title}</div>
       <div className="creatorDetails">
       <img  className="profilePhoto" src={videoContent.profilePhoto} alt="profile"/>
-      <p>{videoContent.name}</p>
+      <p className="creatorName">{videoContent.name}</p>
       </div>
     </div>
+    <h4 style={{marginTop:"1rem"}}>Description</h4>
     <div className="description">{videoContent.description}</div>
     </div>
   );

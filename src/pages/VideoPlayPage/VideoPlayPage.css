@@ -2,3 +2,24 @@
     display: flex;
     align-items: center;
 }
+.videotitle{
+    margin: 0.5rem;
+    font-weight: bold;
+}
+.creatorName{
+    margin-left: 1rem;
+}
+.description{
+    width: 70%;
+    margin-top: 1rem;
+}
+@media screen and (max-width:1180px) {
+    .description{
+        width:80%;
+    }
+}
+@media screen and (max-width:964px) {
+    .description{
+        width:95%;
+    }
+}
