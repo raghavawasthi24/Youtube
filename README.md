@@ -1,9 +1,11 @@
 ### YouTube CLone
 
-### [Click here To Visit Site](https://youtube-internship.netlify.app/)
+### 🖥 [Click here To Visit Site](https://youtube-internship.netlify.app/)
+
 
 To install. follow the steps:
-
+1.Clone the project using git command
+`git clone`
 
 ## Available Scripts
 
