@@ -19,7 +19,7 @@ const MainPage = () => {
 
 
   useEffect(()=>{
-    axios.get(`https://internship-service.onrender.com/videos?page=${pagevalue}`)
+    axios.get(`${process.env.REACT_APP_URL}/videos?page=${pagevalue}`)
     .then((res)=>{
       console.log(res.data.data.posts)
       setPostData(res.data.data.posts);
