@@ -1,23 +1,26 @@
-import React, { useEffect } from 'react';
+import React from "react";
 import "./VideoPlayPage.css";
-import { videoContent } from '../../components/Card/Card';
+import { videoContent } from "../../components/Card/Card";
 // import { videoContent } from '../../components/Card/Card';
 
 const VideoPlayPage = () => {
 
-    const show=()=>{
-        console.log("xcvbnm,")
-        console.log(videoContent)
 
-    }
-   
   return (
-    <div className='videoPlayer'>
-        {/* <video src={videoContent}/> */}
-        hhhh
-        <button onClick={show}>click</button>
+    <div className="videoPlayer">
+      <video width="750" height="500" controls>
+        <source src={videoContent.video} type="video/mp4" />
+      </video>
+    <div className="videoTut">
+      <div className="videoTitle">{videoContent.title}</div>
+      <div className="creatorDetails">
+      <img  className="profilePhoto" src={videoContent.profilePhoto} alt="profile"/>
+      <p>{videoContent.name}</p>
+      </div>
     </div>
-  )
-}
+    <div className="description">{videoContent.description}</div>
+    </div>
+  );
+};
 
-export default VideoPlayPage
+export default VideoPlayPage;
