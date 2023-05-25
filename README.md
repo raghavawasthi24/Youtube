@@ -11,9 +11,11 @@ To install. follow the steps:
 
 `git clone https://github.com/raghavawasthi24/Youtube.git`
 
-2.Use `npm i` to install all dependencies 
+2.Use `npm i` to install all dependencies
 
-3. 
+3.To run the application,use
+
+`npm start` and react app will start running at  [http://localhost:3000](http://localhost:3000)
 
 ## Available Scripts
 
