@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# YouTube CLone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### [Click here To Visit Site](https://youtube-internship.netlify.app/)
+
+To install. follow the steps:
+
 
 ## Available Scripts
 
