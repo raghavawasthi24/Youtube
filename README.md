@@ -5,7 +5,10 @@
 
 To install. follow the steps:
 1.Clone the project using git command
-`git clone`
+`git clone https://github.com/raghavawasthi24/Youtube.git`
+
+2.Use `npm i` to install all dependencies 
+3. 
 
 ## Available Scripts
 
