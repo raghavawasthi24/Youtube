@@ -16,7 +16,7 @@ function App() {
       <Route path="/" element={<MainPage/>}/>
       <Route path="/card" element={<Card/>}/>
       
-      {/* <Route path="/navbar" element={<Sidebar/>}/> */}
+      
       <Route path="/video" element={<VideoPlayPage/>}/>
     </Routes>
     </div>
